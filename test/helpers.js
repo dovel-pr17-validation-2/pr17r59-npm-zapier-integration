@@ -1,7 +1,7 @@
 'use strict';
 
 // Shared fixtures: the recorded API shapes, the same ids as the sibling integrations' fakes.
-const nock = require('nock');
+const nock = require('nock').default;
 const zapier = require('zapier-platform-core');
 const App = require('../index');
 
